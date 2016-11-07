@@ -7,22 +7,6 @@ import reducers from './reducers';
 
 import { saveState, loadState } from './localStorage';
 
-// let myLogger = ({ getState, dispatch }) => next => action => {
-//
-//       console.log('getState:', getState);
-//       console.log('dispatch:', dispatch);
-//       console.log('action:', action);
-//       next(action);
-//
-// }
-// let myLogger = function(store) {
-//   return function(next) {
-//     return function(action) {
-//       console.log('action:', action);
-//       next(action);
-//     }
-//   }
-// }
 let middlewares = [
   logger(),
   thunk,

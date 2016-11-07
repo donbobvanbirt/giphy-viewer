@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getGiphById } from '../actions/PokemonActions';
+import { getGiphById } from '../actions/giphActions';
 
 class Detail extends Component {
 
@@ -9,10 +9,7 @@ class Detail extends Component {
   }
 
   render() {
-    console.log('this.props:', this.props);
-    // let { giph } = this.props;
-    // console.log('giph', giph)
-    // console.log('giph.data.embed_url:', giph.data.embed_url)
+    // console.log('this.props:', this.props);
     let { embed_url, rating, source, slug, images } = this.props.giph.data;
     return (
       <div>

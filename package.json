@@ -1,5 +1,5 @@
 {
-  "name": "react-express",
+  "name": "Giphy Viewer",
   "version": "1.0.0",
   "description": "",
   "main": "server/app.js",
@@ -10,7 +10,7 @@
     "node": "6"
   },
   "keywords": [],
-  "author": "Cade Nichols <cade@codinghouse.co>",
+  "author": "Donovan",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.2",

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 
-import { searchGiphs } from '../actions/PokemonActions';
+import { searchGiphs } from '../actions/giphActions';
 
 class Giphs extends Component {
   constructor() {
