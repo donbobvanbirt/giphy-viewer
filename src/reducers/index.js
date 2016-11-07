@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import count from './count';
+import detail from './detail';
 import giphs from './giphs';
 
-export default combineReducers({ count, giphs });
+export default combineReducers({ detail, giphs });
